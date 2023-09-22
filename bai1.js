@@ -51,3 +51,17 @@
 // pi = 5
 // console.log(pi) //bao loi
 
+//f - OBJECT
+let dienThoai = {
+    ten: "iPhone 14",
+    hangSanXuat: "Apple",
+    mauSac: "Trang",
+    gia: "1000 USD"
+}
+console.log(dienThoai)
+//g
+dienThoai.gia = "750 USD"
+console.log(dienThoai)
+//h
+dienThoai.ten = ("iPhone 14 promax")
+console.log(dienThoai)
