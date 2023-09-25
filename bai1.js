@@ -109,7 +109,7 @@
 // let kq6 = x*x - (2*z*x*y) / (y*y) + 5*x - 2*y*y + 4*x*z*z*z + z*z*z
 // console.log("x^2 - 2zxy / y^2 + 5x - 2y^2 + 4xz^3 + z^3 = ", kq6)
 
-//3d
+// 3d
 // let dk = 5
 // let chuVi = 3.14 * dk
 // let bk = dk/2
