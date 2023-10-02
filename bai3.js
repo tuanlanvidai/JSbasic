@@ -108,6 +108,5 @@ for(let i = 0; i<doDaiMang-1; i++)
         arr[i]= arr[i+1]
         arr[i+1]=bienTam
     }
-    i++
 }
 console.log(arr)
