@@ -1,6 +1,6 @@
 //bai1
-// let arr = [3, 451, 5, 2, 6, 76, 3, 5, 1, 243, 6, 4]
-// let doDaiMang = arr.length
+let arr = [3, 451, 5, 2, 6, 76, 3, 5, 1, 243, 6, 4]
+let doDaiMang = arr.length
 
 // for(let i = 0; i< doDaiMang;  i++)
 // {
@@ -152,9 +152,49 @@
 //     }
 // }
 
+//==i do while
+// let i = 0
+// let temp=0
+// console.log(arr)
+// do{
+//     let j=i+1
+//     do{
+//         if(arr[i]>arr[j])
+//         {
+//             temp = arr[i]
+//             arr[i] = arr[j]
+//             arr[j]= temp
+//         }
+//         j++
+//     }while(j<doDaiMang)
+//     i++
+// }while(i<doDaiMang-1)
+// console.log(arr)
+
+//==e do while
+// let arr1=[]
+// let i=doDaiMang-1
+// let j=0
+// do{
+//     arr1[j] = arr[i]
+//     i--
+//     j++
+// }while(i>=0)
+// console.log(arr)
+// console.log(arr1)
+
+//==g do while
+console.log(arr)
+let i=doDaiMang-1
+do{
+    arr[i+1]=arr[i]
+    i--
+}while(i>=0)
+arr[0]=117
+console.log(arr)
 // == bai 2
-let arr = [5,-2,5,-6,23,69,100,-13,10,0,14]
-let doDaiMang = arr.length
+// let arr = [5,-2,5,-6,23,69,100,-13,10,0,14]
+// let doDaiMang = arr.length
 
 //a
 // for(let i = 0; i < doDaiMang-1; i++)
@@ -169,19 +209,20 @@ let doDaiMang = arr.length
 // }
 
 //b
-console.log(arr)
-for(let i = 0; i<doDaiMang-1; i++)
-{
-    for(let j = i+1; j<doDaiMang; j++)
-    {
-        if(arr[i]==arr[j])
-        {
-            console.log("Phan tu trung nhau: ", arr[i])
-            for(j; j<=doDaiMang;j++)
-            {
-                arr[j] = arr[j+1]
-            }
-        }
-    }
-}
-console.log(arr)
+// console.log(arr)
+// for(let i = 0; i<doDaiMang-1; i++)
+// {
+//     for(let j = i+1; j<doDaiMang; j++)
+//     {
+//         if(arr[i]==arr[j])
+//         {
+//             console.log("Phan tu trung nhau: ", arr[i])
+//             for(j; j<=doDaiMang;j++)
+//             {
+//                 arr[j] = arr[j+1]
+//             }
+//         }
+//     }
+// }
+// console.log(arr)
+
